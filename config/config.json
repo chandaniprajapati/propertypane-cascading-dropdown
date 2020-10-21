@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pnp-cascading-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnpCascading/PnpCascadingWebPart.js",
+          "manifest": "./src/webparts/pnpCascading/PnpCascadingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PnpCascadingWebPartStrings": "lib/webparts/pnpCascading/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

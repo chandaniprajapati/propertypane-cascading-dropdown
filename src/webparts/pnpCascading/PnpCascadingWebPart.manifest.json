@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "fb622c1d-0969-4571-b6c9-e828c601918a",
+  "alias": "PnpCascadingWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "pnp-cascading"
+      },
+      "description": {
+        "default": "In this webpart we will cascading dropdowns in property pane"
+      },
+      "officeFabricIconFontName": "Dropdown",
+      "properties": {
+        "description": "pnp-cascading",
+        "lists": "",
+        "fields": ""
+      }
+    }
+  ]
+}
